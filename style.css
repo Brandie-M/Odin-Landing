@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('/imgs/grass-with-blurred-lights.jpg');
+    background-image: url('imgs/grass-with-blurred-lights.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
