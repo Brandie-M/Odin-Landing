@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/imgs/grass-with-blurred-lights.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+.first-content {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    color: white;
+    background-color: #1c2541ea;
+
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+    
+}
+
+.top-image {
+    height: 250px;
+    border-radius: 15px;
+    border-color: #76a786;
+}
+
+button {
+    background-color: #76a786;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+.second-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    display: flex;
+    width: 100px;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    gap: 16px;
+    flex-wrap: 1;
+}
+
+.boxes img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: #0d323a;
+}
+
+.third-content {
+    background-color: #bbe5eddc;
+    padding: 50px 100px ;
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a {
+    margin: 8px;
+    text-decoration: none;
+    color: #76a786
+}
+
+.fourth-content {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 10px;
+}
+
+.call-box {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-color:#0d323a;
+    border-radius: 10px; 
+}
+h4 {
+    font-size: 18px;
+    margin: 0;
+    padding:0;
+}
+
+.call-box p {
+    margin:0
+}
+
+
+footer {
+    background-color: #1c2541;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: -50px;
+
+}
