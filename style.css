@@ -46,6 +46,7 @@ button {
     background-color: #76a786;
     padding: 5px 25px;
     border-radius: 10px;
+    min-width: 120px;
 }
 
 .second-content {
